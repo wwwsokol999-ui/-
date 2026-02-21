@@ -30,3 +30,4 @@ HAProxy балансирует HTTP-трафик только при обращ�
 for i in {1..18}; do
   curl -s --http1.1 -H "Connection: close" http://example.local/
 done
+![Снимок](Снимок.PNG)
